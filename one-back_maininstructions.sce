@@ -21,7 +21,7 @@ trial_type=specific_response;
 terminator_button = 3;
 
 picture{
-text{font_size = 20; caption = "Im folgenden werden Dir Klaenge presentiert und Du sollst jeden Klang hinsichtlich seiner Eigenschaften bewerten:
+text{font_size = 25; caption = "Im folgenden werden Dir Klaenge presentiert und Du sollst jeden Klang hinsichtlich seiner Eigenschaften bewerten:
 
 1) Menschlichkeit: War der Klang von einer menschlichen Stimme?
 
