@@ -8,13 +8,19 @@ begin;
 #    picture that shows the craving scale with highlighted number
 picture {
 	 text { caption = " 0 "; font_size = 36; } rate1;
-        x = -160; y = -300; 
+        x = -320; y = -260; 
 	 text { caption = " 1 "; font_size = 36; } rate2;
-        x = 0; y = -300; 
+        x = 0; y = -260; 
 	 text { caption = " 2 "; font_size = 36; } rate3;
-        x = 160; y = -300;    
-    text { caption = "^"; font_size = 32; font_color = 255, 255, 255; } textScaleLabel;            
-        x = 0; y = -380;    
+        x = 320; y = -260;   
+	 text { caption = "^"; font_size = 32; font_color = 255, 255, 255; } textScaleLabel;            
+        x = 0; y = -380;   
+	 text { caption = "nicht menschlich"; font_size = 26; } textscale1;
+        x = -320; y = -300;  
+	 text { caption = "etwas menschlich"; font_size = 26; } textscale2;
+        x = 0; y = -300;  
+	 text { caption = "menschlich"; font_size = 26; } textscale3;
+        x = 320; y = -300; 
     text { caption = "Bitte benutze die links/rechts Tasten (kleine Pfeilspitzen) um Dich auf der Skala zu bewegen. 
 Druecke die 'Enter' Taste um Deine Auswahl zu bestaetigen."; font_size = 24; text_align = align_center; width=50; } textScaleLabelCenter;
         x = 0; y = -450;
@@ -56,18 +62,24 @@ Druecke die 'Enter' Taste um Deine Auswahl zu bestaetigen."; font_size = 24; tex
 picture {
 
 	 text { caption = " 1 "; font_size = 36; } rate1_3;
-        x = -320; y = -300; 
+        x = -320; y = -260; 
 	 text { caption = " 2 "; font_size = 36; } rate2_3;
-        x = -160; y = -300; 
+        x = -160; y = -260; 
 	 text { caption = " 3 "; font_size = 36; } rate3_3;
-        x = 0; y = -300; 
+        x = 0; y = -260; 
 	 text { caption = " 4 "; font_size = 36; } rate4_3;
-        x = 160; y = -300; 
+        x = 160; y = -260; 
   	 text { caption = " 5 "; font_size = 36; } rate5_3;
-        x = 320; y = -300;   
+        x = 320; y = -260;   
     text { caption = "^"; font_size = 32; font_color = 255, 255, 255; } textScaleLabel3;            
         x = 0; y = -380;    
-    text { caption = "Bitte benutze die links/rechts Tasten (kleine Pfeilspitzen) um Dich auf der Skala zu bewegen. 
+    text { caption = "ganz entspannt"; font_size = 26; } text_scale1;
+        x = -320; y = -300;  
+	 text { caption = "etwas erregt"; font_size = 26; } text_scale2;
+        x = 0; y = -300;  
+	 text { caption = "sehr erregt"; font_size = 26; } text_scale3;
+        x = 320; y = -300; 
+	 text { caption = "Bitte benutze die links/rechts Tasten (kleine Pfeilspitzen) um Dich auf der Skala zu bewegen. 
 Druecke die 'Enter' Taste um Deine Auswahl zu bestaetigen."; font_size = 24; text_align = align_center; width=50; } textScaleLabelCenter3;
         x = 0; y = -450;
     text { caption = "0"; font_size = 36; font_color = 255, 0, 0; } textRating3;
@@ -89,7 +101,7 @@ begin_pcl;
 int INC_BUTTON = 2;
 int DEC_BUTTON = 1;
 int RATING_BUTTON = 3;
-array<int> x_coords1[3] = {-160, 0, 160};
+array<int> x_coords1[3] = {-320, 0, 320};
 array<int> x_coords2[2] = {-200, 200};
 array<int> x_coords3[5] = {-320, -160, 0, 160, 320};
 array<string> question2Choice[2] = {"Ueberraschung", "Neutral"};
