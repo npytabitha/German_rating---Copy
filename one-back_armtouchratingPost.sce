@@ -23,16 +23,12 @@ time = 0;
 
 #    picture that shows the craving scale with highlighted number
 picture {
-    text { caption = " -2 "; font_size = 36; } rate1;
-        x = -320; y = -300; 
-	 text { caption = " -1 "; font_size = 36; } rate2;
+	 text { caption = " 0 "; font_size = 36; } rate1;
         x = -160; y = -300; 
-	 text { caption = " 0 "; font_size = 36; } rate3;
+	 text { caption = " 1 "; font_size = 36; } rate2;
         x = 0; y = -300; 
-	 text { caption = " 1 "; font_size = 36; } rate4;
-        x = 160; y = -300; 
-	 text { caption = " 2 "; font_size = 36; } rate5;
-        x = 320; y = -300;     
+	 text { caption = " 2 "; font_size = 36; } rate3;
+        x = 160; y = -300;    
     text { caption = "^"; font_size = 32; font_color = 255, 255, 255; } textScaleLabel;            
         x = 0; y = -380;    
     text { caption = "Bitte benutze die links/rechts Tasten (kleine Pfeilspitzen) um Dich auf der Skala zu bewegen. 
@@ -117,8 +113,10 @@ begin_pcl;
 int INC_BUTTON = 2;
 int DEC_BUTTON = 1;
 int RATING_BUTTON = 3;
+array<int> x_coords2[3] = {-160, 0, 160};
 array<int> x_coords[5] = { -320, -160, 0, 160, 320 };
 array<int> x_coords3[6] = { -325, -195, -65, 65, 195, 325 };
+array<int> aButtonCodes2[3][2] = { { 0,1 }, { 1,2 }, {2,3} };
 array<int> aButtonCodes[5][2] = { { -2,1 }, { -1,2 }, { 0,3 }, { 1,4 }, { 2,5 }};
 array<int> aButtonCodes3[6][2] = { { 0,1 }, { 1,2 }, { 2,3 }, { 3,4 }, { 4,5 }, {5,6}} ;
 
@@ -128,40 +126,40 @@ sub
     int get_rating( int starting_val )
 begin
     
-    # Set the starting position of the rating
-    int curr_pos = starting_val;
+   # Set the starting position of the rating
+   int curr_pos = starting_val;
 
-    # Now run the loop until we run out of time
-    loop 
-    until
-        response_manager.response_count(3) == 1
-    begin
-        # Set the x coordinate of the rating and update the caption
-        picUserRatingScale.set_part_x( 6, x_coords[curr_pos] );
-        textRating.set_caption( string( aButtonCodes[curr_pos][1] ), true );
+	term.print(curr_pos);
+	
+   # Now run the loop until we run out of time
+   loop 
+   until
+      response_manager.response_count(3) == 1
+   begin
+      # Set the x coordinate of the rating and update the caption
+      picUserRatingScale.set_part_x( 4, x_coords2[curr_pos] );
+      textRating.set_caption( string( aButtonCodes2[curr_pos][1] ), true );
         
-        # Present the picture
-        picUserRatingScale.present();
-        
-			if (response_manager.last_response() == 2) then
-				if ( aButtonCodes[curr_pos][1] < 2 ) then
-					curr_pos = starting_val + (response_manager.response_count(2)) - (response_manager.response_count(1));
-				else
-					curr_pos = curr_pos;
-				end;
-			elseif (response_manager.last_response() == 1) then
-				if ( aButtonCodes[curr_pos][1] > -2 ) then
-					curr_pos = starting_val + (response_manager.response_count(2)) - (response_manager.response_count(1));
-				else
-					curr_pos = curr_pos;
-				end;
+      # Present the picture
+      picUserRatingScale.present();
+		
+		if(response_manager.last_response() == 2) then
+			curr_pos = curr_pos + 1;
+			if(curr_pos > 3) then 
+				curr_pos = 3;
 			end;
+		elseif(response_manager.last_response() == 1) then
+			curr_pos = curr_pos - 1;
+			if(curr_pos < 1) then
+				curr_pos = 1;
+			end;
+		end;
 				
-    end;
-    return aButtonCodes[curr_pos][1];
+   end;
+   return curr_pos;
 end;
 
-int rating1 = get_rating(3);
+int rating1 = get_rating(2);
 
 sub
     int get_rating2( int starting_val )
