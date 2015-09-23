@@ -114,11 +114,12 @@ begin
     
    # Set the starting position of the rating
    int curr_pos = starting_val;
+	bool exit = false;
 	
    # Now run the loop until we run out of time
    loop 
    until
-		response_manager.response_count(3) == 1
+		exit == true
    begin
       # Set the x coordinate of the rating and update the caption
       int captionNum = curr_pos - 1;
@@ -130,17 +131,20 @@ begin
 
 		system_keyboard.set_max_length(1);
 		string input = system_keyboard.get_input();
+		term.print_line(input);
 		
 		if(input == "1") then
 			curr_pos = curr_pos - 1;
 			if(curr_pos < 1) then
 				curr_pos = 1;
-			end
+			end;
 		elseif(input == "2") then
 			curr_pos = curr_pos + 1;
 			if(curr_pos > 3) then
 				curr_pos = 3;
 			end;
+		elseif(input == "") then
+			exit = true;
 		end;
 				
    end;
@@ -153,14 +157,15 @@ sub
    string get_rating2( int starting_val )
 begin
     
-    # Set the starting position of the rating
-    int curr_pos = starting_val;
+   # Set the starting position of the rating
+   int curr_pos = starting_val;
+	bool exit = false;
 
-    # Now run the loop until we run out of time
-    loop 
-    until
-        response_manager.response_count(3) == 2
-    begin
+   # Now run the loop until we run out of time
+   loop 
+   until
+		exit == true
+   begin
       # Set the x coordinate of the rating and update the caption
       picUserRatingScale2.set_part_x(3, x_coords2[curr_pos]);
       textRating2.set_caption(question2Choice[curr_pos], true );
@@ -181,6 +186,8 @@ begin
 			if(curr_pos > 2) then
 				curr_pos = 2;
 			end;
+		elseif(input == "") then
+			exit = true;
 		end;
 			
     end;
@@ -195,14 +202,15 @@ sub
     int get_rating3( int starting_val )
 begin
     
-    # Set the starting position of the rating
-    int curr_pos = starting_val;
-
-    # Now run the loop until we run out of time
-    loop 
-    until
-        response_manager.response_count(3) == 3
-    begin
+   # Set the starting position of the rating
+   int curr_pos = starting_val;
+	bool exit = false;
+	
+   # Now run the loop until we run out of time
+   loop 
+   until
+		exit == true
+   begin
       # Set the x coordinate of the rating and update the caption
       picUserRatingScale3.set_part_x( 6, x_coords3[curr_pos] );
       textRating3.set_caption( string(curr_pos), true );
@@ -223,7 +231,9 @@ begin
 			if(curr_pos > 5) then
 				curr_pos = 5;
 			end;
-		end; 
+		elseif(input == "") then
+			exit = true;
+		end;
 				
     end;
     return curr_pos;
@@ -232,9 +242,9 @@ end;
 int rating3 = get_rating3(3);
 
 output_file rating = new output_file;
-string filename = logfile.subject() + "-rating.txt";
+string filename = logfile.subject() + "-soundrating.txt";
 rating.open_append( filename );
-rating.print( "\nArm_touch_ratingPost: " );
+rating.print( "\nSoundfile: " );
 rating.print( "\nRating 1: " );
 rating.print( rating1 );
 rating.print( "\nRating 2: " );
