@@ -21,7 +21,7 @@ trial_type=specific_response;
 terminator_button = 3;
 
 picture{
-text{font_size = 20; caption = "Das ist das Ende des Experimentes.
+text{font_size = 25; caption = "Das ist das Ende des Experimentes.
 
 Vielen Dank!";
 };

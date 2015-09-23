@@ -1,5 +1,5 @@
 <ver>18.1</ver>
-<efn>C:\Users\Tabitha\Desktop\German_rating\Gsound_rating.exp</efn>
+<efn>C:\Users\Tabitha\Desktop\German_rating - Copy\Gsound_rating.exp</efn>
 <author></author>
 <con>
 <pause>P</pause>
@@ -34,13 +34,12 @@
 <lfn></lfn>
 </docs>
 <dp_list></dp_list>
-<dsd>C:\Users\Tabitha\Desktop\German_rating</dsd>
+<dsd>C:\Users\Tabitha\Desktop\German_rating - Copy</dsd>
 <dxv>8</dxv>
 <efs>
-<filename>C:\Users\Tabitha\Desktop\German_rating\one-back_maininstructions.sce</filename>
-<filename>C:\Users\Tabitha\Desktop\German_rating\one-back_armtouch.sce</filename>
-<filename>C:\Users\Tabitha\Desktop\German_rating\one-back_armtouchratingPost.sce</filename>
-<filename>C:\Users\Tabitha\Desktop\German_rating\one-back_end.sce</filename>
+<filename>C:\Users\Tabitha\Desktop\German_rating - Copy\Gsoundrating_instructions.sce</filename>
+<filename>C:\Users\Tabitha\Desktop\German_rating - Copy\Gsoundrating_main.sce</filename>
+<filename>C:\Users\Tabitha\Desktop\German_rating - Copy\Gsoundrating_end.sce</filename>
 </efs>
 <exclusive_mouse>1</exclusive_mouse>
 <exp_version></exp_version>
@@ -79,9 +78,6 @@
 <asn>
 <sid>-2</sid>
 </asn>
-<asn>
-<sid>-2</sid>
-</asn>
 </ssa>
 </man>
 </exparam>
@@ -95,7 +91,6 @@
 <ftp>
 <ccc>0</ccc>
 <do_upload>
-<sce>1</sce>
 <sce>1</sce>
 <sce>1</sce>
 <sce>1</sce>
@@ -120,7 +115,7 @@
 <idt>0</idt>
 <ip_chans></ip_chans>
 <isb>10000</isb>
-<lfd>C:\Users\Tabitha\Desktop\German_rating</lfd>
+<lfd>C:\Users\Tabitha\Desktop\German_rating - Copy</lfd>
 <lnb>1</lnb>
 <lno>3</lno>
 <log>
@@ -412,7 +407,7 @@
 <offset>3</offset>
 <offset>28</offset>
 </idv>
-<sfn>C:\Users\Tabitha\Desktop\German_rating\one-back_maininstructions.sce</sfn>
+<sfn>C:\Users\Tabitha\Desktop\German_rating - Copy\Gsoundrating_instructions.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -432,7 +427,7 @@
 <offset>3</offset>
 <offset>28</offset>
 </idv>
-<sfn>C:\Users\Tabitha\Desktop\German_rating\one-back_armtouch.sce</sfn>
+<sfn>C:\Users\Tabitha\Desktop\German_rating - Copy\Gsoundrating_main.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -452,27 +447,7 @@
 <offset>3</offset>
 <offset>28</offset>
 </idv>
-<sfn>C:\Users\Tabitha\Desktop\German_rating\one-back_armtouchratingPost.sce</sfn>
-</sce>
-<sce>
-<idv>
-<device_type>3</device_type>
-<dx_device_type>19</dx_device_type>
-<ibn>1</ibn>
-<ibn>2</ibn>
-<ibn>Enter</ibn>
-<idn>Keyboard</idn>
-<index>0</index>
-<index>1</index>
-<index>2</index>
-<label></label>
-<label></label>
-<label></label>
-<offset>2</offset>
-<offset>3</offset>
-<offset>28</offset>
-</idv>
-<sfn>C:\Users\Tabitha\Desktop\German_rating\one-back_end.sce</sfn>
+<sfn>C:\Users\Tabitha\Desktop\German_rating - Copy\Gsoundrating_end.sce</sfn>
 </sce>
 <sct>
 <capture_device>
