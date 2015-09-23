@@ -94,6 +94,116 @@ x = 0; y = 0;
     
 } picUserRatingScale3;
 
+array {
+sound { wavefile { filename = "Neutral_TKH.wav"; }; };
+sound { wavefile { filename = "Neutral_LS.wav"; }; };
+sound { wavefile { filename = "Neutral_Edward.wav"; }; };
+sound { wavefile { filename = "Neutral_NXR.wav"; }; };
+sound { wavefile { filename = "Neutral_46.wav"; }; };
+sound { wavefile { filename = "Neutral_SG.wav"; }; };
+sound { wavefile { filename = "Neutral_Joyce.wav"; }; };
+sound { wavefile { filename = "Neutral_58.wav"; }; };
+sound { wavefile { filename = "Neutral_ML.wav"; }; };
+sound { wavefile { filename = "Neutral_Elizabeth.wav"; }; };
+sound { wavefile { filename = "Neutral_CW.wav"; }; };
+sound { wavefile { filename = "Neutral_SH.wav"; }; };
+sound { wavefile { filename = "Neutral_Daryl.wav"; }; };
+sound { wavefile { filename = "Neutral_Janvin.wav"; }; };
+sound { wavefile { filename = "Surprise_Ernest_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_TKH_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_55_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_Madeline_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_CKH_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_60_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_GZ_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_GC_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_Edward_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_MY_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_Elizabeth_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_NXR_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_MSC_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_45.wav"; }; };
+sound { wavefile { filename = "Surprise_59.wav"; }; };
+sound { wavefile { filename = "Surprise_6.wav"; }; };
+sound { wavefile { filename = "Surprise_CC.wav"; }; };
+sound { wavefile { filename = "Surprise_CW.wav"; }; };
+sound { wavefile { filename = "Surprise_Daryl.wav"; }; };
+sound { wavefile { filename = "Surprise_Janvin.wav"; }; };
+sound { wavefile { filename = "Surprise_Joyce.wav"; }; };
+sound { wavefile { filename = "Surprise_LS.wav"; }; };
+sound { wavefile { filename = "Surprise_ML.wav"; }; };
+sound { wavefile { filename = "Surprise_Rena.wav"; }; };
+sound { wavefile { filename = "Surprise_SG.wav"; }; };
+sound { wavefile { filename = "Surprise_SH.wav"; }; };
+sound { wavefile { filename = "Surprise_TLSM.wav"; }; };
+sound { wavefile { filename = "Neutral_42_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_55_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_59_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_CC_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_CKH_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_DK_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_Ernest_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_GC_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_GZ_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_Madeline_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_MSC_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_MY_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_Rena_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_ML_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_Elizabeth_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_SH_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_NXR_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_TKH_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_GZ_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_Janvin_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_58_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_Edward_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_Daryl_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_LS_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_46_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_SG_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_Joyce_rot.wav"; }; };
+sound { wavefile { filename = "Neutral_42.wav"; }; };
+sound { wavefile { filename = "Neutral_55.wav"; }; };
+sound { wavefile { filename = "Neutral_59.wav"; }; };
+sound { wavefile { filename = "Neutral_CC.wav"; }; };
+sound { wavefile { filename = "Neutral_CKH.wav"; }; };
+sound { wavefile { filename = "Neutral_DK.wav"; }; };
+sound { wavefile { filename = "Neutral_Ernest.wav"; }; };
+sound { wavefile { filename = "Neutral_GC.wav"; }; };
+sound { wavefile { filename = "Neutral_GZ.wav"; }; };
+sound { wavefile { filename = "Neutral_Madeline.wav"; }; };
+sound { wavefile { filename = "Neutral_MSC.wav"; }; };
+sound { wavefile { filename = "Neutral_MY.wav"; }; };
+sound { wavefile { filename = "Neutral_Rena.wav"; }; };
+sound { wavefile { filename = "Surprise_45_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_59_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_6_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_CC_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_CW_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_Daryl_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_Janvin_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_Joyce_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_LS_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_ML_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_Rena_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_SG_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_SH_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_TLSM_rot.wav"; }; };
+sound { wavefile { filename = "Surprise_CKH.wav"; }; };
+sound { wavefile { filename = "Surprise_Ernest.wav"; }; };
+sound { wavefile { filename = "Surprise_GZ.wav"; }; };
+sound { wavefile { filename = "Surprise_60.wav"; }; };
+sound { wavefile { filename = "Surprise_Elizabeth.wav"; }; };
+sound { wavefile { filename = "Surprise_Madeline.wav"; }; };
+sound { wavefile { filename = "Surprise_GC.wav"; }; };
+sound { wavefile { filename = "Surprise_MY.wav"; }; };
+sound { wavefile { filename = "Surprise_Edward.wav"; }; };
+sound { wavefile { filename = "Surprise_55.wav"; }; };
+sound { wavefile { filename = "Surprise_NXR.wav"; }; };
+sound { wavefile { filename = "Surprise_MSC.wav"; }; };
+sound { wavefile { filename = "Surprise_TKH.wav"; }; };
+} soundList;
 
 begin_pcl;
 
@@ -105,6 +215,11 @@ array<int> x_coords1[3] = {-320, 0, 320};
 array<int> x_coords2[2] = {-200, 200};
 array<int> x_coords3[5] = {-320, -160, 0, 160, 320};
 array<string> question2Choice[2] = {"Ueberraschung", "Neutral"};
+
+array<string> soundFileNames[] = {"Sound File List"}; 
+array<string> firstAnswer[] = {"First Answer"};
+array<string> secondAnswer[] = {"Second Answer"};
+array<string> thirdAnswer[] = {"Third Answer"};
 
 # --- sub get_rating
 
@@ -151,8 +266,6 @@ begin
    return curr_pos - 1;
 end;
 
-int rating1 = get_rating(2);
-
 sub
    string get_rating2( int starting_val )
 begin
@@ -193,10 +306,6 @@ begin
     end;
     return question2Choice[curr_pos];
 end;
-
-string rating2 = get_rating2(1);
-
-
 
 sub
     int get_rating3( int starting_val )
@@ -239,16 +348,102 @@ begin
     return curr_pos;
 end;
 
-int rating3 = get_rating3(3);
+sub
+	int playSoundLoop
+begin
+	
+	int size = soundList.count();
+	soundList.shuffle();
+	int i = 1;
+	
+	loop until i > soundList.count()
+	
+	begin
+		
+		# clear screen
+		picture default_pic = new picture();
+		default_pic.present();
+		
+		if(i > 1) then 
+			wait_interval(500);
+		end;
+		
+		# present sound
+		sound soundToBePlayed = soundList[i];
+		soundToBePlayed.present();
+		string soundFileName  = soundToBePlayed.get_wavefile().filename();
+		
+		# delay
+		wait_interval(2000);
+		
+		# present questions
+		int firstResponse = get_rating(2);
+		string secondResponse = get_rating2(1);
+		int thirdResponse = get_rating3(3);
+		
+		# append values to storage
+		soundFileNames.add(soundFileName);
+		firstAnswer.add(string(firstResponse));
+		secondAnswer.add(secondResponse);
+		thirdAnswer.add(string(thirdResponse));
+		
+		i = i + 1;
+	end;
+	
+	# dummy return integer
+	return 1;
+end;
 
-output_file rating = new output_file;
-string filename = logfile.subject() + "-soundrating.txt";
-rating.open_append( filename );
-rating.print( "\nSoundfile: " );
-rating.print( "\nRating 1: " );
-rating.print( rating1 );
-rating.print( "\nRating 2: " );
-rating.print( rating2 );
-rating.print( "\nRating 3: " );
-rating.print( rating3 );
-rating.close();
+sub
+	int saveToFile
+begin
+	output_file rating = new output_file;
+	string fileName = logfile.subject() + "-soundrating.csv";
+	rating.open_append(fileName);
+	
+	int numberOfResults = soundFileNames.count();
+	int i = 1;
+	
+	loop until i > numberOfResults
+	begin
+		string soundFileName = soundFileNames[i];
+		string firstResponse = firstAnswer[i];
+		string secondResponse = secondAnswer[i];
+		string thirdResponse = thirdAnswer[i];
+		
+		rating.print(soundFileName);
+		rating.print(",");
+		rating.print(firstResponse);
+		rating.print(",");
+		rating.print(secondResponse);
+		rating.print(",");
+		rating.print(thirdResponse);
+		rating.print("\n");
+		
+		i = i + 1;
+	end;
+	
+	rating.close();
+	
+	# return dummy
+	return 1;
+end;
+
+playSoundLoop();
+saveToFile();
+
+#int rating1 = get_rating(2);
+#string rating2 = get_rating2(1);
+#int rating3 = get_rating3(3);
+
+# output_file rating = new output_file;
+# string filename = logfile.subject() + "-soundrating.txt";
+# rating.open_append( filename );
+#rating.print( "\nSoundfile: " );
+#rating.print( "\nRating 1: " );
+#rating.print( rating1 );
+#rating.print( "\nRating 2: " );
+#rating.print( rating2 );
+#rating.print( "\nRating 3: " );
+#rating.print( rating3 );
+#rating.close();
